@@ -1,0 +1,39 @@
+body {
+  background-color: #f8f9fa;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.hero-banner {
+  background: linear-gradient(135deg, #212529 0%, #dc3545 100%);
+}
+
+.food-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 0.75rem;
+}
+
+.food-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.category-badge {
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+}
+
+.cart-item-row {
+  border-bottom: 1px solid #e9ecef;
+  padding: 0.5rem 0;
+}
+
+.cart-item-row:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 992px) {
+  .sticky-cart {
+    position: sticky;
+    top: 4.5rem;
+  }
+}
