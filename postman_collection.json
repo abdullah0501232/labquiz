@@ -1,0 +1,59 @@
+{
+  "info": {
+    "name": "Online Food Ordering API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET Food Items",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/food",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["food"]
+        }
+      }
+    },
+    {
+      "name": "POST Create Order",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"customerName\": \"Ali Khan\",\n  \"email\": \"ali@example.com\",\n  \"phone\": \"03001234567\",\n  \"address\": \"House 12, Street 4, Lahore\",\n  \"items\": [\n    {\n      \"id\": 1,\n      \"name\": \"Classic Beef Burger\",\n      \"price\": 8.99,\n      \"quantity\": 2\n    },\n    {\n      \"id\": 8,\n      \"name\": \"Iced Lemon Mint\",\n      \"price\": 3.5,\n      \"quantity\": 1\n    }\n  ],\n  \"totalAmount\": 21.48\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/orders",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["orders"]
+        }
+      }
+    },
+    {
+      "name": "GET All Orders",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/orders",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["orders"]
+        }
+      }
+    }
+  ]
+}
