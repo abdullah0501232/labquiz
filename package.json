@@ -1,0 +1,12 @@
+{
+  "name": "online-food-ordering",
+  "version": "1.0.0",
+  "description": "Simple Online Food Ordering Fullstack App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

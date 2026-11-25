@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Beef Burger",
+    "price": 8.99,
+    "category": "Burgers"
+  },
+  {
+    "id": 2,
+    "name": "Crispy Chicken Burger",
+    "price": 7.99,
+    "category": "Burgers"
+  },
+  {
+    "id": 3,
+    "name": "Margherita Pizza",
+    "price": 12.50,
+    "category": "Pizza"
+  },
+  {
+    "id": 4,
+    "name": "Pepperoni Feast Pizza",
+    "price": 14.99,
+    "category": "Pizza"
+  },
+  {
+    "id": 5,
+    "name": "Creamy Alfredo Pasta",
+    "price": 11.49,
+    "category": "Pasta"
+  },
+  {
+    "id": 6,
+    "name": "Spicy Arrabbiata Pasta",
+    "price": 10.99,
+    "category": "Pasta"
+  },
+  {
+    "id": 7,
+    "name": "Loaded Cheese Fries",
+    "price": 5.49,
+    "category": "Sides"
+  },
+  {
+    "id": 8,
+    "name": "Iced Lemon Mint",
+    "price": 3.50,
+    "category": "Drinks"
+  }
+]
